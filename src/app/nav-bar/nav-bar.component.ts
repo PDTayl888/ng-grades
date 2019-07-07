@@ -16,7 +16,7 @@ export class NavBarComponent implements OnInit {
 
   addCourse() {
     console.log(this.hideCourse);
-    this.hideCourse = ! this.hideCourse;
+    this.hideCourse = !this.hideCourse;
   }
 
 }
